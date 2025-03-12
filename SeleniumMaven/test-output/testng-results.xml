@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestCase2 Login Credential Assertion Pass]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken by name title]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-06T13:56:54 IST" name="Suite" finished-at="2025-03-06T13:58:00 IST" duration-ms="65841">
+    <groups>
+    </groups>
+    <test started-at="2025-03-06T13:56:54 IST" name="Test" finished-at="2025-03-06T13:58:00 IST" duration-ms="65841">
+      <class name="TestCaseDemo.Test1">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestCaseDemo.Test1@39d9314d]" started-at="2025-03-06T13:57:47 IST" name="openbrowser" finished-at="2025-03-06T13:57:58 IST" duration-ms="10587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="TestTitle(java.lang.String)[pri:1, instance:TestCaseDemo.Test1@39d9314d]" started-at="2025-03-06T13:57:58 IST" name="TestTitle" data-provider="title" finished-at="2025-03-06T13:57:58 IST" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken by name title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestTitle -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCaseDemo.Test1@39d9314d]" started-at="2025-03-06T13:57:58 IST" name="closebrowser" finished-at="2025-03-06T13:58:00 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCaseDemo.Test1 -->
+      <class name="TestCaseDemo.Test2">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test2@571c5681]" started-at="2025-03-06T13:56:57 IST" name="open" finished-at="2025-03-06T13:57:11 IST" duration-ms="14303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="enterCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCaseDemo.Test2@571c5681]" started-at="2025-03-06T13:57:12 IST" name="enterCredentials" data-provider="dp1" finished-at="2025-03-06T13:57:23 IST" duration-ms="10916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase2 Login Credential Assertion Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test2@571c5681]" started-at="2025-03-06T13:57:23 IST" name="close" finished-at="2025-03-06T13:57:27 IST" duration-ms="4360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test2 -->
+      <class name="TestCaseDemo.Test3">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestCaseDemo.Test3@488d1cd7]" started-at="2025-03-06T13:57:27 IST" name="openbrowser" finished-at="2025-03-06T13:57:39 IST" duration-ms="11519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="TestMenu()[pri:0, instance:TestCaseDemo.Test3@488d1cd7]" started-at="2025-03-06T13:57:39 IST" name="TestMenu" finished-at="2025-03-06T13:57:45 IST" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMenu -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCaseDemo.Test3@488d1cd7]" started-at="2025-03-06T13:57:45 IST" name="closebrowser" finished-at="2025-03-06T13:57:47 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCaseDemo.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
